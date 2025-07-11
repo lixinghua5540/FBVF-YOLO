@@ -1,3 +1,15 @@
+# YOLOv5-FBV-Fusion
+
+## YOLOv5
+First of all, the FBV-Fusion creation team is very grateful to the creation team of YOLOv5. Our FBV-Fusion is an improvement on YOLOv5, and this project contains all of the original code of YOLOv5.
+
+##
+
+YOLOv5 🚀 is the world's most loved vision AI, representing <a href="https://www.ultralytics.com/">Ultralytics</a> open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
+
+We hope that the resources here will help you get the most out of YOLOv5. Please browse the YOLOv5 <a href="https://docs.ultralytics.com/yolov5/">Docs</a> for details, raise an issue on <a href="https://github.com/ultralytics/yolov5/issues/new/choose">GitHub</a> for support, and join our <a href="https://discord.com/invite/ultralytics">Discord</a> community for questions and discussions!
+
+To request an Enterprise License please complete the form at [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 # How to use
 ## 1. Local Deployment
