@@ -1,4 +1,4 @@
-# Introduction to the dataset
+# Introduction of RS-STOD
 
 RS-STOD Small Target Detection Dataset (for Remote Sensing Tasks) 
 
@@ -6,14 +6,14 @@ The dataset used in this project is specially designed for the task of small tar
 
 Note: A small target is defined as a bbox with the longest side less than 32 pixels, and an ultra-tiny target is defined as a bbox with the longest side less than 16 pixels.
 
-! [image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/Dataset_images.jpg) 
-<p align="centre">Dataset annotation display<p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/Dataset_images.jpg)
+<p align="center">Dataset annotation<p>
 
-! [image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/Percentage%20of%20each%20category.jpg) 
-<p align=" centre">Instance size of this dataset<p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/Percentage%20of%20each%20category.jpg)
+<p align="center">Instance size of RS-STOD<p>
 
-! [image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/RS-STOD%20labelling%20details.jpg) 
-<p align="centre">Instance detail information for this Instance detail information for this dataset <p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/RS-STOD%20labelling%20details.jpg)
+<p align="center">Instance detail information for RS-STOD<p>
 
 
 ## 📦 Dataset contents 
@@ -24,15 +24,19 @@ The coco format is divided into train and val, and the YOLO format is not divide
 
 ### yolo
 
+For storing images in yolo format and labelling txt
+
 ### coco
 
-### classes.txt: 
+For storing images in coco format and labelling json
+
+### classes.txt
 
 list of category names, one category name per line, corresponding to category_id in COCO.
 
-For details of the dataset, see our paper: A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery
+### For more details of RS-STOD, see our paper: A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery
 
-## 🔗 Data download link 
+## 🔗 Download link 
 
 The full dataset has been uploaded to 
 
@@ -57,5 +61,4 @@ If you have used this dataset in your research, please cite it in the following 
  year = {2025}, 
  doi = {https://doi.org/10.1016/j.knosys.2025.114051}, 
  } </pre>
-
-Translated with DeepL.com (free version)
+ 
