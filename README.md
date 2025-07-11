@@ -32,7 +32,7 @@ We have uploaded a modified version of YOLOv5's FBV-Fusion strategy, and YOLOv7,
 
 ## ckp file
 
-The ckp files are stored in the ./ckp folder, please download them as needed.
+The ckp files are stored in the ./checkpoints/README_English.md, please download them as needed.
 
 Note: The ckp files are all training results on the RS-STOD dataset and are used for val
 
