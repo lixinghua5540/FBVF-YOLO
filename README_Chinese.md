@@ -47,7 +47,7 @@ Then, to enhance the utilization of feature extraction in the target area and ba
 
 代码存储在本工程的./code文件夹下，使用方法见对应的工程文件
 
-目前我们上传了YOLOv5、v9、v10与v11的FBV-Fusion策略的更改版，YOLOv7版本将在代码整理后进行上传
+目前我们上传了YOLOv5的FBV-Fusion策略的更改版，YOLOv7、v9、v10与v11版本将在代码整理后进行上传
 
 ## ckp文件
 
