@@ -1,4 +1,4 @@
-# A Front-back View Fusion Strategy and A Novel Dataset for Super Tiny Object Detection in Remote Sensing Imagery
+# A Front-back View Fusion Strategy and A Novel Dataset for Super Tiny Object Detection in Remote Sensing Imagery（2025）
 
 ## 摘要
 ### 中文版
@@ -11,12 +11,27 @@
 
 此外，针对遥感 STOs 检测数据集的稀缺性和样本的不平衡性，我们构建了一个名为RS-STOD的新型数据集。
 
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/images/Loss%20of%20feature%20information.png)
+<p align="center">随着卷积层深入，信息损失问题凸显</p>
+
 ### 英文版：
 我们强烈建议您阅读英文摘要，以理解本研究的原始本意
 
 Super tiny objects (STOs) are frequently submerged in complex backgrounds of remote sensing and natural images, which brings major challenges for existing learning-based object detection methods. Currently, You Only Look Once (YOLO) is one of the most widely used mainstream methods in the field of object detection. 
 However, its performance on STOs detection is still not satisfactory. The biggest challenge lies in the network’s difficulty in effectively extracting the scarce geometric and spectral information of STOs. Towards this end, a front-back view fusion (FBV-Fusion) strategy compatible with the famous YOLO framework is proposed. Firstly, to prevent background information from overwhelming STOs features, a target mask is generated through the YOLO backbone, dividing the feature layer into target and background regions. 
 Then, to enhance the utilization of feature extraction in the target area and background information, the skip convolution replaces all normal convolution in YOLO neck, focusing on the features of the target region. The feature layer size is increased to mitigate the information loss of STOs at the source. Moreover, to address the scarcity of datasets and the imbalance of samples for remote sensing STOs detection, a novel dataset called super tiny object detection for remote sensing (RS-STOD) dataset was constructed. To evaluate its generalization capability and the effectiveness of FBV-Fusion, the experiments were conducted on RS-STOD, AI-TOD and TinyPerson. Meanwhile, the FBV-Fusion strategy was validated across YOLOv5, v7, v9, v10 and v11. The results demonstrate that FBV-Fusion outperforms other state-of-the-art (SOTA) methods.
+
+## 方法流程
+
+关于此部分，我们建议您阅读论文，以获取完整信息
+
+论文题目：A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery
+
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/images/FBV-Fusion%20Framework.jpg)
+<p align="center">FBV-Fusion总体框架</p>
+
+## 检测结果
+
 
 
 ## 📄 引用格式
