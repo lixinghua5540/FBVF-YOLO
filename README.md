@@ -10,19 +10,19 @@ Regarding this section, we recommend that you read the paper for complete inform
 
 Dissertation Title: A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery
 
-! [image] (https://github.com/lixinghua5540/FBVF-YOLO/blob/master/images/FBV-Fusion%20Framework.jpg)
-<p align="center" > FBV-Fusion overall framework</p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/images/FBV-Fusion%20Framework.jpg)
+<p align="center"> FBV-Fusion overall framework</p>
 
 ## Results
 
-! [image] (https://github.com/lixinghua5540/FBVF-YOLO/blob/master/images/Methods%20of%20comparison.jpg)
-<p align="center" > visual result (RS-STOD dataset).</p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/images/Methods%20of%20comparison.jpg)
+<p align="center"> visual result (RS-STOD dataset).</p>
 
-! [image] (https://github.com/lixinghua5540/FBVF-YOLO/blob/master/images/Detail%20of%20the%20result.jpg)
-<p align="center" > details (RS-STOD dataset).</p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/images/Detail%20of%20the%20result.jpg)
+<p align="center"> details (RS-STOD dataset).</p>
 
-! [image] (https://github.com/lixinghua5540/FBVF-YOLO/blob/master/images/Improved%20YOLO.jpg)
-<p align="center" > accuracy improved</p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/images/Improved%20YOLO.jpg)
+<p align="center"> accuracy improved</p>
 
 ## Code and usage
 
@@ -40,13 +40,13 @@ Note: The ckp files are all training results on the RS-STOD dataset and are used
 ## 📄 Citation Format 
 If you have used our method or dataset in your research, please cite it in the following format:
 
-<pre> bibtex 
+<pre>bibtex 
   @article{BAI2025114051, 
-  title = {A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery}, 
-  author = {Xuechen Bai and Xinghua Li and Jianhao Miao and Huanfeng Shen}, 
-  journal = {Knowledge-Based Systems},
-  volume = {326}, 
-  pages = {114051}, 
-  year = {2025}, 
-  doi = {https://doi.org/10.1016/j.knosys.2025.114051}, 
-  }  </pre>
+  title={A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery}, 
+  author={Xuechen Bai and Xinghua Li and Jianhao Miao and Huanfeng Shen}, 
+  journal={Knowledge-Based Systems},
+  volume={326}, 
+  pages={114051}, 
+  year={2025}, 
+  doi={https://doi.org/10.1016/j.knosys.2025.114051}, 
+  }</pre>
