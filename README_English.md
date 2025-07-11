@@ -6,7 +6,7 @@ Super tiny objects (STOs) are frequently submerged in complex backgrounds of rem
 
 
 ## 📄 Citation Format 
-If you have used our method in your research, please cite it in the following format:
+If you have used our method or dataset in your research, please cite it in the following format:
 
 <pre> bibtex 
   @article{BAI2025114051, 
