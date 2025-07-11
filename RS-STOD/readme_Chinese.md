@@ -17,7 +17,17 @@
 
 其中coco格式进行了train与val的划分，YOLO格式未进行划分。
 
-classes.txt：类别名称列表，每行一个类别名称，对应 COCO 中的 category_id
+### yolo
+
+用于存放yolo格式的影像及标注txt
+
+### coco
+
+用于存放yolo格式的影像及标注json（已进行train与val划分）
+
+### classes.txt
+
+类别名称列表，每行一个类别名称，对应 COCO 中的 category_id
 
 数据集的详细信息请参阅我们的论文：A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery
 
