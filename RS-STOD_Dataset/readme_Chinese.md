@@ -4,13 +4,13 @@
 注：小目标定义为 bbox 最长边小于 32 像素， 超微小目标定义为 bbox 最长边小于 16 像素
 
 ![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD_Dataset/images/Dataset_images.jpg)
-<p align="center">数据集标注展示<p>
+<p align="center">数据集标注展示</p>
 
-![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/Percentage%20of%20each%20category.jpg)
-<p align="center">本数据集的实例尺寸<p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD_Dataset/images/Percentage%20of%20each%20category.jpg)
+<p align="center">本数据集的实例尺寸</p>
 
-![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/RS-STOD%20labelling%20details.jpg)
-<p align="center">本数据集的实例细节信息<p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD_Dataset/images/RS-STOD%20labelling%20details.jpg)
+<p align="center">本数据集的实例细节信息</p>
 
 ## 📦 数据集内容
 该数据集包含两种标注格式：YOLO格式与COCO格式，分别放置在对应名称的文件夹中。
@@ -29,14 +29,10 @@
 
 类别名称列表，每行一个类别名称，对应 COCO 中的 category_id
 
-数据集的详细信息请参阅我们的论文：A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery
+数据集的详细信息请参阅我们的论文：**A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery**
 
 ## 🔗 数据下载链接
-完整数据集已上传至百度网盘：
-
-百度网盘永久链接：
-
-点击下载数据集
+完整数据集已上传至永久链接：
 
 📎 链接：https://pan.baidu.com/s/1jO7W3mQ07Ec0xHcnTC0ANg?pwd=2u3z 
 
@@ -48,13 +44,13 @@
 ## 📄 引用格式
 如您在研究中使用了该数据集，请引用以下格式：
 
-<pre> bibtex 
+<pre>bibtex 
   @article{BAI2025114051, 
-  title = {A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery}, 
-  author = {Xuechen Bai and Xinghua Li and Jianhao Miao and Huanfeng Shen}, 
-  journal = {Knowledge-Based Systems},
-  volume = {326}, 
-  pages = {114051}, 
-  year = {2025}, 
-  doi = {https://doi.org/10.1016/j.knosys.2025.114051}, 
-  }  </pre>
+  title={A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery}, 
+  author={Xuechen Bai and Xinghua Li and Jianhao Miao and Huanfeng Shen}, 
+  journal={Knowledge-Based Systems},
+  volume={326}, 
+  pages={114051}, 
+  year={2025}, 
+  doi={https://doi.org/10.1016/j.knosys.2025.114051}, 
+  }</pre>
