@@ -21,7 +21,7 @@ To request an Enterprise License please complete the form at [Ultralytics Licens
 
 ### 1.2 Configure the environment 
 
-<pre> 
+<pre>
 conda create -n yolov5 python=3.8.20 
 conda activate yolov5 
 pip install -r requirements.txt 
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Download the training data in YOLO format and create or modify a new ***./data/dataset_name.yaml***
 
 For example: 
-<pre> 
+<pre>
 train: /home/bxc/STOD/train/ImageName.txt (training data location) 
 val: /home/bxc/STOD/val/ImageName.txt (validation data location) 
 test: /home/bxc/STOD/val/ ImageName.txt (test data location) 
@@ -48,15 +48,15 @@ names: ['Small Vehicle', 'Large Vehicle', 'Ship', 'Airplane', 'Oil Tank'] (names
 
 Modify behaviour 570 of ***train.py***:
 
-<pre> 
-parser.add_argument("--data", type=str, default=ROOT / "data/dataset name.yaml", help="dataset.yaml path" 
+<pre>
+parser.add_argument("--data", type=str, default=ROOT / "data/dataset_name.yaml", help="dataset.yaml path" 
 </pre>
 
 ### 3.2 Changing Models
 
 To replace the model with the original YOLOv5 model, modify line 569 of ***train.py*** (our model is ***models/yolov5-mask.yaml***)
 
-<pre> 
+<pre>
 parser.add_argument("--cfg", type=str, default="models/yolov5.yaml", help="model.yaml path") 
 </pre>
 
@@ -64,7 +64,7 @@ parser.add_argument("--cfg", type=str, default="models/yolov5.yaml", help="model
 
 ### 3.4 Starting training
 
-<pre> 
+<pre>
 python train.py 
 </pre>
 
@@ -82,15 +82,15 @@ The training file will be saved to ***./run/train/project_name*** folder.
 Modify the ***val.py*** file to configure the training data yaml and ckp file paths.
 
 For example: 
-<pre> 
-parser.add_argument("--data", type=str, default=ROOT/ "data/STOD.yaml", help="dataset.yaml path") 
+<pre>
+parser.add_argument("--data", type=str, default=ROOT/ "data/dataset_name.yaml", help="dataset.yaml path") 
 parser.add_argument("--weights ", nargs="+", type=str, default=ROOT/ "./checkpoints/best.pt", help="model path(s)") 
 </pre>
 
 ### 4.4 Setting other hyperparameters
 
 ### 4.3 Starting the test 
-<pre> 
+<pre>
 python val.py 
 </pre>
 
