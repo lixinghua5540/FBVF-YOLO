@@ -1,6 +1,6 @@
 # A Front-back View Fusion Strategy and A Novel Dataset for Super Tiny Object Detection in Remote Sensing Imagery（2025 KBS）
 
-这是论文《A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery》的官方代码库，包含RS-STOD数据集、训练、验证代码
+这是论文 **《A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery》** 的官方代码库，包含RS-STOD数据集、训练、验证代码
 
 ## 摘要
 ### 中文版
@@ -45,13 +45,13 @@ Then, to enhance the utilization of feature extraction in the target area and ba
 
 ## 代码及使用方法
 
-代码存储在本工程的./code文件夹下，使用方法见对应的工程文件
+代码存储在本工程的 ***./code*** 文件夹下，使用方法见对应的工程文件
 
 目前我们上传了YOLOv5的FBV-Fusion策略的更改版，YOLOv7、v9、v10与v11版本将在代码整理后进行上传
 
 ## ckp文件
 
-ckp文件统一存放在./ckp文件夹下，请按需下载。
+CKP文件下载链接统一存放在 ***./checkpoints/README_Chinese.md*** 下，请按需下载。
 
 注：ckp文件均为RS-STOD数据集上的训练结果，用于val
 
