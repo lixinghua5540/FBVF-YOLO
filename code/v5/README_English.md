@@ -12,6 +12,9 @@ We hope that the resources here will help you get the most out of YOLOv5. Please
 To request an Enterprise License please complete the form at [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 # How to use
+
+⭐ This project is used in exactly the same way as YOLO, so if you have hands-on experience with YOLO, you can use it directly!
+
 ## 1. Local Deployment
 
 ### 1.1 Download the project locally
@@ -26,7 +29,9 @@ pip install -r requirements.txt
 
 ## 2. Training and testing data configuration
 
-## 2.1 Download the training data in YOLO format and create or modify a new ./data/dataset name.yaml
+## 2.1 Download dataset
+
+Download the training data in YOLO format and create or modify a new ***./data/dataset_name.yaml***
 
 For example: 
 <pre> 
@@ -41,7 +46,7 @@ names: ['Small Vehicle', 'Large Vehicle', 'Ship', 'Airplane', 'Oil Tank'] (names
 
 ### 3.1 Configure data files
 
-Modify behaviour 570 of train.py:
+Modify behaviour 570 of ***train.py***:
 
 <pre> 
 parser.add_argument("--data", type=str, default=ROOT / "data/dataset name.yaml", help="dataset.yaml path" 
@@ -49,7 +54,7 @@ parser.add_argument("--data", type=str, default=ROOT / "data/dataset name.yaml",
 
 ### 3.2 Changing Models
 
-To replace the model with the original YOLOv5 model, modify line 569 of train.py (our model is models/yolov5-mask.yaml)
+To replace the model with the original YOLOv5 model, modify line 569 of ***train.py*** (our model is ***models/yolov5-mask.yaml***)
 
 <pre> 
 parser.add_argument("--cfg", type=str, default="models/yolov5.yaml", help="model.yaml path") 
@@ -65,16 +70,16 @@ python train.py
 
 ### 3.5 End of training
 
-The training file will be saved to ./run/train/project name folder.
+The training file will be saved to ***./run/train/project_name*** folder.
 
 ## 4. Start testing
 
 ### 4.1 Configure the data file 
-(if training is complete) Firstly, save the . /run/train/project name/weights to the folder: ./checkpoints
+(if training is complete) Firstly, save the ***./run/train/project_name/weights*** to the folder: ***./checkpoints***
 
-(If you don't want to train) you can download our trained ckp file directly from this project and save it to ./checkpoints
+(If you don't want to train) you can download our trained ckp file directly from this project and save it to ***./checkpoints***
 
-Modify the val.py file to configure the training data yaml and ckp file paths.
+Modify the ***val.py*** file to configure the training data yaml and ckp file paths.
 
 For example: 
 <pre> 
@@ -91,4 +96,4 @@ python val.py
 
 ### 4.4 Completing the test
 
-The test results will be saved to folder: ./run/val/project name
+The test results will be saved to folder: ***./run/val/project_name***
