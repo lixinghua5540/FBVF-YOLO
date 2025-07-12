@@ -3,7 +3,7 @@
 
 注：小目标定义为 bbox 最长边小于 32 像素， 超微小目标定义为 bbox 最长边小于 16 像素
 
-![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/Dataset_images.jpg)
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD_Dataset/images/Dataset_images.jpg)
 <p align="center">数据集标注展示<p>
 
 ![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/Percentage%20of%20each%20category.jpg)
