@@ -1,7 +1,7 @@
 # YOLOv5-FBV-Fusion
 
 ## YOLOv5
-首先FBV-Fusion的创作团队非常感谢YOLOv5的创作团队，我们的FBV-Fusion在YOLOv5基础上的改进，本工程包含了YOLOv5的原始的代码。
+首先FBV-Fusion的创作团队非常感谢YOLOv5的创作团队，我们的FBV-Fusion在YOLOv5基础上的改进，本工程包含了全部YOLOv5的原始的代码。
 
 ##
 YOLOv5 🚀 是世界上最受欢迎的视觉 AI，代表<a href="https://www.ultralytics.com/"> Ultralytics </a>对未来视觉 AI 方法的开源研究，结合在数千小时的研究和开发中积累的经验教训和最佳实践。
@@ -11,6 +11,9 @@ YOLOv5 🚀 是世界上最受欢迎的视觉 AI，代表<a href="https://www.ul
 如需申请企业许可，请在 [Ultralytics Licensing](https://www.ultralytics.com/license) 处填写表格
 
 # 如何使用
+
+⭐ 本项目的使用方式与YOLO完全相同，如果您有YOLO的实战经验，可以直接使用。
+
 ## 1.本地部署
 
 ### 1.1 下载本工程到本地
@@ -38,7 +41,7 @@ names: ['Small Vehicle', 'Large Vehicle', 'Ship', 'Airplane', 'Oil Tank'] （数
 
 ### 3.1 配置数据文件
 
-修改train.py第570行为：
+修改***train.py***第570行为：
 
 <pre>
 parser.add_argument("--data", type=str, default=ROOT / "data/数据集名称.yaml", help="dataset.yaml path"
@@ -46,7 +49,7 @@ parser.add_argument("--data", type=str, default=ROOT / "data/数据集名称.yam
 
 ### 3.2 更换模型
 
-若要更换模型为YOLOv5的原版模型，请修改train.py的第569行（我们的模型为models/yolov5-mask.yaml）
+若要更换模型为YOLOv5的原版模型，请修改***train.py***的第569行（我们的模型为***models/yolov5-mask.yaml***）
 
 <pre>
 parser.add_argument("--cfg", type=str, default="models/yolov5.yaml", help="model.yaml path")
@@ -62,16 +65,16 @@ python train.py
 
 ### 3.5 训练结束
 
-训练文件将被保存到./run/train/工程名称 文件夹下
+训练文件将被保存到 ***./run/train/*** 工程名称 文件夹下
 
 ## 4.开始测试
 
 ### 4.1 配置数据文件
-（如果完成训练）首先将./run/train/工程名称/weights下的ckp文件转移到./checkpoints文件夹中
+（如果完成训练）首先将 ***./run/train/工程名称/weights***下的ckp文件转移到 ***./checkpoints*** 文件夹中
 
-（如果你不想训练）可以直接从本工程下载我们已经训练好的ckp文件，保存到./checkpoints文件夹中
+（如果你不想训练）可以直接从本工程下载我们已经训练好的ckp文件，直接保存到 ***./checkpoints***文件夹中
 
-修改val.py文件，配置训练数据yaml与ckp文件路径
+修改 ***val.py*** 文件，配置训练数据yaml与ckp文件路径、名称
 
 例如：
 <pre>
@@ -88,4 +91,4 @@ python val.py
 
 ### 4.4 测试完成
 
-测试结果将被保存到./run/val/工程名称 文件夹下
+测试结果将被保存到 ***./run/val/工程名称*** 文件夹下
