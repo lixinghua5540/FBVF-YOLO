@@ -6,15 +6,14 @@ The dataset used in this project is specially designed for the task of small tar
 
 Note: A small target is defined as a bbox with the longest side less than 32 pixels, and an ultra-tiny target is defined as a bbox with the longest side less than 16 pixels.
 
-![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/Dataset_images.jpg)
-<p align="center">Dataset annotation<p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD_Dataset/images/Dataset_images.jpg)
+<p align="center">Dataset annotation</p>
 
-![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/Percentage%20of%20each%20category.jpg)
-<p align="center">Instance size of RS-STOD<p>
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD_Dataset/images/Percentage%20of%20each%20category.jpg)
+<p align="center">Instance size of RS-STOD</p>
 
-![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD/images/RS-STOD%20labelling%20details.jpg)
+![image](https://github.com/lixinghua5540/FBVF-YOLO/blob/master/RS-STOD_Dataset/images/RS-STOD%20labelling%20details.jpg)
 <p align="center">Instance detail information for RS-STOD<p>
-
 
 ## 📦 Dataset contents 
 
@@ -34,7 +33,7 @@ For storing images in coco format and labelling json
 
 list of category names, one category name per line, corresponding to category_id in COCO.
 
-### For more details of RS-STOD, see our paper: A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery
+For more details of RS-STOD, see our paper: **A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery**
 
 ## 🔗 Download link 
 
